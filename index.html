@@ -15,15 +15,16 @@
   <body>
     <h1>What is Microsoft Paint?</h1>
     <div class="img-container">
-      <img
-        sizes="(min-width: 1200px) calc(80vw - 2em), 100vw"
-        srcset="
-          ./assets/images/dwarf.webp     629w,
-          ./assets/images/dwarf-2x.webp 1257w
-        "
-        src="./assets/images/dwarf.webp"
-        alt=""
-      />
+      <picture>
+        <source
+          media="(min-width:640px)"
+          srcset="./assets/images/dwarf-2x.webp"
+        />
+        <img
+          src="./assets/images/dwarf-portrait.webp"
+          alt=""
+        />
+      </picture>
     </div>
     <p>
       Well, back in the 2000s, I had a Windows 98 PC that had MS Paint. With the

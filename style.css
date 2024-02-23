@@ -51,7 +51,7 @@ a {
   margin: 0 auto;
   max-width: var(--max-width);
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .section-center {
     width: 95vw;
   }
@@ -63,5 +63,5 @@ main {
 }
 
 .img-container img {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
